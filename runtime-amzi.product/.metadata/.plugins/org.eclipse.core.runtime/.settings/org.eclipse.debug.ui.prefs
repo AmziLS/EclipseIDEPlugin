@@ -1,0 +1,7 @@
+#Wed Sep 08 14:18:31 EDT 2010
+pref_state_memento.org.eclipse.debug.ui.DebugVieworg.eclipse.debug.ui.DebugView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<DebugViewMemento org.eclipse.debug.ui.BREADCRUMB_DROPDOWN_AUTO_EXPAND\="false"/>
+eclipse.preferences.version=1
+org.eclipse.debug.ui.DebugView+com.amzi.prolog.debugview.leashCall=true
+org.eclispe.debug.ui.Debug_view.mode=Debug_view.mode.full
+preferredDetailPanes=DefaultDetailPane\:DefaultDetailPane|
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives>\r\n<launchPerspective configurationType\="com.amzi.prolog.ui.launch.prologListener" mode\="debug" perspective\="org.eclipse.debug.ui.DebugPerspective"/>\r\n<launchPerspective configurationType\="com.amzi.prolog.ui.launch.prologRuntime" mode\="debug" perspective\="org.eclipse.debug.ui.DebugPerspective"/>\r\n</launchPerspectives>\r\n

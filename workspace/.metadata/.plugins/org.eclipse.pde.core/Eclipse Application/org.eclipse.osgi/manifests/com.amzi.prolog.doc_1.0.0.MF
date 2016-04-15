@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Generated-from: 1047921475000;type=2
+Bundle-ManifestVersion: 2
+Bundle-Name: Amzi! Documentation
+Bundle-SymbolicName: com.amzi.prolog.doc; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActivator
+Bundle-Vendor: Amzi! inc.
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime;bundle-version="2.1",
+ org.eclipse.core.runtime.compatibility
+Eclipse-LazyStart: true

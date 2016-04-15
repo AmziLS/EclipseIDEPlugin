@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1455580059085" transient="true" version="3.0">
+<site enabled="true" list="workspace/com.amzi.prolog.help/,workspace/com.amzi.prolog.core/,workspace/com.amzi.prolog.debug/,workspace/com.amzi.prolog.ui/,workspace/com.amzi.prolog/" policy="USER-INCLUDE" updateable="true" url="file:/Users/dennis/Work/github/amzi/source/eclipse/amzi-ide/">
+</site>
+</config>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="" key="targetName"/>
+	<item value="true" key="OrganizeManifests.ExportedPackages.removeUnresolved"/>
+	<item value="false" key="rcpPlugin"/>
+	<item value="false" key="OrganizeManifests.RequireImport.modifyDep"/>
+	<item value="false" key="osgiProject"/>
+	<item value="false" key="OrganizeManifests.General.cleanup.removeUselessFiles"/>
+	<item value="false" key="OrganizeManifests.RequireImport.findRemoveUnused"/>
+	<item value="1" key="org.eclipse.pde.ui.synchronizeVersions.mode"/>
+	<item value="true" key="OrganizeManifests.calculateUses"/>
+	<item value="true" key="generateActivator"/>
+	<item value="false" key="OrganizeManifests.ExportedPackages.addMissing"/>
+	<item value="false" key="OrganizeManifests.General.cleanup"/>
+	<item value="false" key="OrganizeManifests.Translation.nls"/>
+	<item value="*.internal*" key="OrganizeManifests.ExportedPackages.packageFilter"/>
+	<item value="false" key="OrganizeManifests.AddDependencies"/>
+	<item value="false" key="OrganizeManifests.Translation.unusedKeys"/>
+	<item value="false" key="OrganizeManifests.ExportedPackages.makeInternal"/>
+	<item value="2" key="org.eclipse.pde.ui.synchronizeFeatueEnvironment.mode"/>
+	<item value="true" key="OrganizeManifests.RequireImport.resolve:markOptional"/>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+	</section>
+	<section name="dependenciesView">
+	</section>
+	<section name="PDEFormActionManager">
+	</section>
+	<section name="pde_compiler_errorwarnings_block">
+		<item value="true" key="0"/>
+		<item value="false" key="1"/>
+		<item value="false" key="2"/>
+		<item value="false" key="3"/>
+		<item value="false" key="4"/>
+	</section>
+	<section name="org.eclipse.pde.ui.dialogs.PluginSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="705" key="DIALOG_WIDTH"/>
+			<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="580" key="DIALOG_HEIGHT"/>
+			<item value="371" key="DIALOG_Y_ORIGIN"/>
+			<item value="436" key="DIALOG_X_ORIGIN"/>
+		</section>
+	</section>
+	<section name="targetStateView">
+	</section>
+	<section name="UpdateBuildpathWizard">
+	</section>
+	<section name="editBundleContainerWizard">
+		<item value="C:\eclipse\delta_pack_3-5-2\eclipse" key="location1"/>
+		<item value="C:\eclipse_downloads\delta_pack_3-5-2\eclipse" key="location2"/>
+		<item value="C:\eclipse_downloads\delta-pack_3-5-2\eclipse" key="location3"/>
+	</section>
+	<section name="pluginsView">
+	</section>
+	<section name="RefactoringWizard.Organize Manifests">
+		<item value="600" key="width"/>
+		<item value="450" key="height"/>
+	</section>
+	<section name="org.eclipse.pde.ui.dialogs.FeatureSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="556" key="DIALOG_X_ORIGIN"/>
+			<item value="246" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="pde-form-editor">
+		<item value="bundle-context" key="org.eclipse.pde.ui.manifestEditor"/>
+	</section>
+	<section name="ProductExportWizard">
+		<item value="/Users/dennis/Documents" key="destination0"/>
+		<item value="true" key="syncProduct"/>
+		<item value="/Users/dennis/Documents" key="destination1"/>
+		<item value="win32 (win32/x86)" key="cross-platform"/>
+		<item value="C:\amzi\release\eclipse" key="destination4"/>
+		<item value="Generate source bundles" key="exportSourceFormat"/>
+		<item value="C:\amzi\release" key="destination2"/>
+		<item value="AmziEclipse" key="productRoot"/>
+		<item value="C:\amzi\release_9-3" key="destination3"/>
+		<item value="false" key="multiplatform"/>
+		<item value="/com.amzi.prolog/amzi.product" key="productConfig0"/>
+		<item value="false" key="exportSource"/>
+		<item value="true" key="exportDirectory"/>
+		<item value="C:\amzi\dev\eclipse\amzi_product_3-5-9001.zip" key="zipFileName4"/>
+		<item value="C:\amzi\dev\eclipse\amzi9-product_3-5-9001.zip" key="zipFileName5"/>
+		<item value="false" key="allowBinaryCycles"/>
+		<item value="/Users/dennis/Documents/exported_amzi_ide.zip" key="zipFileName0"/>
+		<item value="/Users/dennis/Documents/exported_amzi_ide.zip" key="zipFileName1"/>
+		<item value="C:\amzi\distribution\exported_amzi_ide_3-5-9003.zip" key="zipFileName2"/>
+		<item value="/com.amzi.prolog/amzi9.product" key="productConfig2"/>
+		<item value="C:\amzi\distribution\exported_amzi_ide_3-5-9002.zip" key="zipFileName3"/>
+		<item value="/com.amzi.prolog/amzi.product" key="productConfig1"/>
+		<item value="false" key="p2metadata"/>
+	</section>
+	<section name="PluginExportWizard">
+		<item value="/Users/dennis/Work/github/amzi/release/mac/eclipse" key="destination0"/>
+		<item value="" key="keypass"/>
+		<item value="/Users/dennis/Work/github/amzi/release/mac/eclipse" key="destination1"/>
+		<item value="C:\eclipse_sdk\workspace\com.amzi.prolog\plugin_ant.xml" key="antFileName0"/>
+		<item value="C:\eclipse_sdk\workspace\com.amzi.prolog\plugin_ant.xml" key="antFileName1"/>
+		<item value="Generate source bundles" key="exportSourceFormat"/>
+		<item value="false" key="signJAR"/>
+		<item value="C:\amzi\dev\a8\eclipse_install" key="destination2"/>
+		<item value="true" key="exportUpdate"/>
+		<item value="true" key="saveAsAnt"/>
+		<item value="false" key="exportSource"/>
+		<item value="false" key="exportDirectory"/>
+		<item value="" key="password"/>
+		<item value="true" key="allowBinaryCycles"/>
+		<item value="200901311348" key="qualifierName"/>
+		<item value="/Users/dennis/Documents/amzi_ide_2015-01-29.zip" key="zipFileName0"/>
+		<item value="false" key="useWorkspaceCompiledClasses"/>
+		<item value="/Users/dennis/Documents/amzi_ide_2015-01-29.zip" key="zipFileName1"/>
+		<item value="C:\amzi\dev\eclipse\amzi_product_3-5-9001.zip" key="zipFileName2"/>
+		<item value="1" key="exportType"/>
+		<item value="false" key="qualifier"/>
+		<item value="amziproduct331.zip" key="zipFileName3"/>
+		<item value="" key="alias"/>
+		<item value="" key="keystore"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="FeatureExportWizard">
+		<item value="" key="keypass"/>
+		<item value="" key="siteURL"/>
+		<item value="Generate source bundles" key="exportSourceFormat"/>
+		<item value="true" key="exportUpdate"/>
+		<item value="true" key="saveAsAnt"/>
+		<item value="false" key="exportSource"/>
+		<item value="true" key="exportDirectory"/>
+		<item value="" key="password"/>
+		<item value="false" key="useWorkspaceCompiledClasses"/>
+		<item value="" key="alias"/>
+		<item value="" key="keystore"/>
+		<item value="" key="jre"/>
+		<item value="false" key="p2metadata"/>
+		<item value="C:\amzi\dev\a9\eclipse_install_3-5-9001h" key="destination0"/>
+		<item value="C:\amzi\dev\a9\eclipse_install_3-5-9001g" key="destination1"/>
+		<item value="C:\eclipse_sdk\workspace\com.amzi.prolog-primary_feature\feature_ant.xml" key="antFileName0"/>
+		<item value="C:\eclipse_sdk\workspace\com.amzi.prolog-primary_feature\feature_ant.xml" key="antFileName1"/>
+		<item value="C:\eclipse_sdk\feature_ant.xml" key="antFileName2"/>
+		<item value="true" key="create_categories"/>
+		<item value="false" key="signJAR"/>
+		<item value="C:\amzi\dev\a9\eclipse_install_3-5-9001" key="destination2"/>
+		<item value="C:\amzi\dev\a8\eclipse_install" key="destination3"/>
+		<item value="" key="category_file"/>
+		<item value="true" key="allowBinaryCycles"/>
+		<item value="200901310044" key="qualifierName"/>
+		<item value="1" key="exportType"/>
+		<item value="false" key="qualifier"/>
+		<item value="false" key="jnlp"/>
+	</section>
+</section>

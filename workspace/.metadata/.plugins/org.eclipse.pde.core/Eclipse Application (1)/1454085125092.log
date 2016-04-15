@@ -1,0 +1,703 @@
+!SESSION 2016-01-29 11:32:04.859 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/dennis/Work/github/amzi/source/eclipse/amzi-ide/workspace/../runtime-EclipseApplication(1) -dev file:/Users/dennis/Work/github/amzi/source/eclipse/amzi-ide/workspace/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application (1)/dev.properties -os win32 -ws win32 -arch x86 -consoleLog
+
+This is a continuation of log file /Users/dennis/Work/github/amzi/source/eclipse/amzi-ide/workspace/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application (1)/1454085125092.bak_0.log
+Created Time: 2016-01-29 11:32:07.865
+
+!ENTRY org.eclipse.m2e.core 2 0 2016-01-29 11:32:07.865
+!MESSAGE Could not resolve module: org.eclipse.m2e.core [259]
+  Unresolved requirement: Require-Bundle: org.eclipse.m2e.maven.runtime; bundle-version="[1.6.0,1.7.0)"
+    -> Bundle-SymbolicName: org.eclipse.m2e.maven.runtime; bundle-version="1.6.2.20150902-0001"; singleton:="false"
+       org.eclipse.m2e.maven.runtime [271]
+         Unresolved requirement: Require-Bundle: org.eclipse.m2e.maven.runtime.slf4j.simple; bundle-version="[1.6.0,1.7.0)"
+           -> Bundle-SymbolicName: org.eclipse.m2e.maven.runtime.slf4j.simple; bundle-version="1.6.2.20150902-0001"; singleton:="false"
+              org.eclipse.m2e.maven.runtime.slf4j.simple [272]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(|(&(osgi.ee=JavaSE)(version=1.7))(&(osgi.ee=JavaSE)(version=1.8)))"
+
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2016-01-29 11:32:07.866
+!MESSAGE Could not resolve module: org.eclipse.equinox.p2.metadata.repository [189]
+  Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.persistence
+    -> Export-Package: org.eclipse.equinox.internal.p2.persistence; bundle-version="2.3.100.v20150428-1613"; bundle-symbolic-name="org.eclipse.equinox.p2.repository"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.artifact.repository,  org.eclipse.equinox.p2.engine,  org.eclipse.equinox.p2.metadata.repository,  org.eclipse.equinox.p2.ui.importexport,  org.eclipse.equinox.p2.repository.tools"
+       org.eclipse.equinox.p2.repository [194]
+         Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs
+           -> Export-Package: org.eclipse.core.runtime.jobs; bundle-version="3.7.0.v20150330-2103"; bundle-symbolic-name="org.eclipse.core.jobs"; version="0.0.0"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.mylyn.commons.net 2 0 2016-01-29 11:32:07.866
+!MESSAGE Could not resolve module: org.eclipse.mylyn.commons.net [286]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.compare.core 2 0 2016-01-29 11:32:07.866
+!MESSAGE Could not resolve module: org.eclipse.compare.core [80]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.e4.tools.services 2 0 2016-01-29 11:32:07.866
+!MESSAGE Could not resolve module: org.eclipse.e4.tools.services [115]
+  Unresolved requirement: Require-Bundle: org.eclipse.e4.core.contexts; bundle-version="0.9.0"
+    -> Bundle-SymbolicName: org.eclipse.e4.core.contexts; bundle-version="1.4.0.v20150828-0818"
+       org.eclipse.e4.core.contexts [104]
+         Unresolved requirement: Require-Bundle: org.eclipse.e4.core.di
+           -> Bundle-SymbolicName: org.eclipse.e4.core.di; bundle-version="1.5.0.v20150421-2214"
+              org.eclipse.e4.core.di [105]
+                Unresolved requirement: Require-Bundle: org.eclipse.e4.core.di.annotations; bundle-version="[1.4.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.e4.core.di.annotations; bundle-version="1.4.0.v20150528-1451"
+                     org.eclipse.e4.core.di.annotations [106]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.wb.rcp.databinding 2 0 2016-01-29 11:32:07.867
+!MESSAGE Could not resolve module: org.eclipse.wb.rcp.databinding [488]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui
+    -> Bundle-SymbolicName: org.eclipse.ui; bundle-version="3.107.0.v20150507-1945"; singleton:="true"
+       org.eclipse.ui [455]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+              org.eclipse.core.runtime [96]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+                     org.eclipse.core.jobs [93]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.equinox.p2.discovery.compatibility 2 0 2016-01-29 11:32:07.868
+!MESSAGE Could not resolve module: org.eclipse.equinox.p2.discovery.compatibility [183]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="3.3.0"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.mylyn.git.core 2 0 2016-01-29 11:32:07.869
+!MESSAGE Could not resolve module: org.eclipse.mylyn.git.core [305]
+  Unresolved requirement: Require-Bundle: org.eclipse.egit.core; bundle-version="0.10.0"
+    -> Bundle-SymbolicName: org.eclipse.egit.core; bundle-version="4.0.3.201509231615-r"; singleton:="true"
+       org.eclipse.egit.core [140]
+         Unresolved requirement: Import-Package: org.eclipse.jgit.api; version="[4.0.3,4.1.0)"
+           -> Export-Package: org.eclipse.jgit.api; bundle-version="4.0.3.201509231615-r"; bundle-symbolic-name="org.eclipse.jgit"; version="4.0.3"; uses:="org.eclipse.jgit.revwalk,  org.eclipse.jgit.treewalk.filter,  org.eclipse.jgit.diff,  org.eclipse.jgit.util,  org.eclipse.jgit.notes,  org.eclipse.jgit.dircache,  org.eclipse.jgit.api.errors,  org.eclipse.jgit.lib,  org.eclipse.jgit.treewalk,  org.eclipse.jgit.blame,  org.eclipse.jgit.submodule,  org.eclipse.jgit.transport,  org.eclipse.jgit.merge"
+              org.eclipse.jgit [252]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.jgit.archive 2 0 2016-01-29 11:32:07.870
+!MESSAGE Could not resolve module: org.eclipse.jgit.archive [253]
+  Unresolved requirement: Import-Package: org.eclipse.jgit.api; version="[4.0.3,4.1.0)"
+    -> Export-Package: org.eclipse.jgit.api; bundle-version="4.0.3.201509231615-r"; bundle-symbolic-name="org.eclipse.jgit"; version="4.0.3"; uses:="org.eclipse.jgit.revwalk,  org.eclipse.jgit.treewalk.filter,  org.eclipse.jgit.diff,  org.eclipse.jgit.util,  org.eclipse.jgit.notes,  org.eclipse.jgit.dircache,  org.eclipse.jgit.api.errors,  org.eclipse.jgit.lib,  org.eclipse.jgit.treewalk,  org.eclipse.jgit.blame,  org.eclipse.jgit.submodule,  org.eclipse.jgit.transport,  org.eclipse.jgit.merge"
+       org.eclipse.jgit [252]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.jface.databinding 2 0 2016-01-29 11:32:07.871
+!MESSAGE Could not resolve module: org.eclipse.jface.databinding [250]
+  Unresolved requirement: Require-Bundle: org.eclipse.jface; bundle-version="[3.2.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jface; bundle-version="3.11.0.v20150602-1400"; singleton:="true"
+       org.eclipse.jface [249]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.commands; bundle-version="[3.4.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.commands; bundle-version="3.7.0.v20150422-0725"
+              org.eclipse.core.commands [81]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.e4.tools.emf.ui 2 0 2016-01-29 11:32:07.871
+!MESSAGE Could not resolve module: org.eclipse.e4.tools.emf.ui [113]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="3.9.0"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.e4.ui.widgets 2 0 2016-01-29 11:32:07.872
+!MESSAGE Could not resolve module: org.eclipse.e4.ui.widgets [124]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.oomph.predicates 2 0 2016-01-29 11:32:07.873
+!MESSAGE Could not resolve module: org.eclipse.oomph.predicates [361]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.5.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.mylyn.wikitext.ui 2 0 2016-01-29 11:32:07.873
+!MESSAGE Could not resolve module: org.eclipse.mylyn.wikitext.ui [349]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.core; bundle-version="2.0.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.core; bundle-version="2.6.0.v20150901-2143"; singleton:="true"
+       org.eclipse.mylyn.wikitext.core [333]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.swtbot.eclipse.spy 2 0 2016-01-29 11:32:07.876
+!MESSAGE Could not resolve module: org.eclipse.swtbot.eclipse.spy [442]
+  Unresolved requirement: Import-Package: org.eclipse.core.commands.common
+    -> Export-Package: org.eclipse.core.commands.common; bundle-version="3.7.0.v20150422-0725"; bundle-symbolic-name="org.eclipse.core.commands"; version="0.0.0"
+       org.eclipse.core.commands [81]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.m2e.maven.runtime 2 0 2016-01-29 11:32:07.876
+!MESSAGE Could not resolve module: org.eclipse.m2e.maven.runtime [271]
+  Unresolved requirement: Require-Bundle: org.eclipse.m2e.maven.runtime.slf4j.simple; bundle-version="[1.6.0,1.7.0)"
+    -> Bundle-SymbolicName: org.eclipse.m2e.maven.runtime.slf4j.simple; bundle-version="1.6.2.20150902-0001"; singleton:="false"
+       org.eclipse.m2e.maven.runtime.slf4j.simple [272]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(|(&(osgi.ee=JavaSE)(version=1.7))(&(osgi.ee=JavaSE)(version=1.8)))"
+
+
+!ENTRY org.eclipse.wb.swt 2 0 2016-01-29 11:32:07.876
+!MESSAGE Could not resolve module: org.eclipse.wb.swt [494]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui
+    -> Bundle-SymbolicName: org.eclipse.ui; bundle-version="3.107.0.v20150507-1945"; singleton:="true"
+       org.eclipse.ui [455]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+              org.eclipse.core.runtime [96]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+                     org.eclipse.core.jobs [93]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2016-01-29 11:32:07.877
+!MESSAGE Could not resolve module: org.eclipse.e4.ui.workbench [125]
+  Unresolved requirement: Require-Bundle: org.eclipse.e4.ui.model.workbench; bundle-version="1.0.0"
+    -> Bundle-SymbolicName: org.eclipse.e4.ui.model.workbench; bundle-version="1.1.100.v20150407-1430"; singleton:="true"
+       org.eclipse.e4.ui.model.workbench [122]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.7.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+              org.eclipse.core.runtime [96]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+                     org.eclipse.core.jobs [93]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.e4.emf.xpath 2 0 2016-01-29 11:32:07.877
+!MESSAGE Could not resolve module: org.eclipse.e4.emf.xpath [109]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.mylyn.wikitext.help.ui 2 0 2016-01-29 11:32:07.877
+!MESSAGE Could not resolve module: org.eclipse.mylyn.wikitext.help.ui [336]
+  Unresolved requirement: Require-Bundle: org.eclipse.help
+    -> Bundle-SymbolicName: org.eclipse.help; bundle-version="3.6.0.v20130326-1254"; singleton:="true"
+       org.eclipse.help [214]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.6.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+              org.eclipse.core.runtime [96]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+                     org.eclipse.core.jobs [93]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.mylyn.gerrit.ui 2 0 2016-01-29 11:32:07.878
+!MESSAGE Could not resolve module: org.eclipse.mylyn.gerrit.ui [304]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.jsch.ui 2 0 2016-01-29 11:32:07.878
+!MESSAGE Could not resolve module: org.eclipse.jsch.ui [255]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui; bundle-version="[3.5.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.ui; bundle-version="3.107.0.v20150507-1945"; singleton:="true"
+       org.eclipse.ui [455]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+              org.eclipse.core.runtime [96]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+                     org.eclipse.core.jobs [93]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.mylyn.hudson.core 2 0 2016-01-29 11:32:07.878
+!MESSAGE Could not resolve module: org.eclipse.mylyn.hudson.core [308]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="3.5.0"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2016-01-29 11:32:07.879
+!MESSAGE Could not resolve module: org.eclipse.equinox.p2.artifact.repository [176]
+  Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs
+    -> Export-Package: org.eclipse.core.runtime.jobs; bundle-version="3.7.0.v20150330-2103"; bundle-symbolic-name="org.eclipse.core.jobs"; version="0.0.0"
+       org.eclipse.core.jobs [93]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.ui.forms 2 0 2016-01-29 11:32:07.879
+!MESSAGE Could not resolve module: org.eclipse.ui.forms [462]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.6.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.jgit 2 0 2016-01-29 11:32:07.879
+!MESSAGE Could not resolve module: org.eclipse.jgit [252]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.platform.doc.isv 2 0 2016-01-29 11:32:07.880
+!MESSAGE Could not resolve module: org.eclipse.platform.doc.isv [400]
+  Unresolved requirement: Require-Bundle: org.eclipse.help; bundle-version="[3.2.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.help; bundle-version="3.6.0.v20130326-1254"; singleton:="true"
+       org.eclipse.help [214]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.6.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+              org.eclipse.core.runtime [96]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+                     org.eclipse.core.jobs [93]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.jdt.junit.core 2 0 2016-01-29 11:32:07.880
+!MESSAGE Could not resolve module: org.eclipse.jdt.junit.core [232]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.expressions; bundle-version="[3.4.100,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.expressions; bundle-version="3.5.0.v20150421-2214"; singleton:="true"
+       org.eclipse.core.expressions [87]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+              org.eclipse.core.runtime [96]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+                     org.eclipse.core.jobs [93]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.emf.edit.ui 2 0 2016-01-29 11:32:07.880
+!MESSAGE Could not resolve module: org.eclipse.emf.edit.ui [153]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.5.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.jdt.launching.macosx 2 0 2016-01-29 11:32:07.881
+!MESSAGE Could not resolve module: org.eclipse.jdt.launching.macosx [236]
+  Unresolved requirement: Require-Bundle: org.eclipse.debug.core; bundle-version="[3.5.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.debug.core; bundle-version="3.10.0.v20150303-1130"; singleton:="true"
+       org.eclipse.debug.core [100]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.resources; bundle-version="[3.9.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.resources; bundle-version="3.10.1.v20150725-1910"; singleton:="true"
+              org.eclipse.core.resources [95]
+                Unresolved requirement: Require-Bundle: org.eclipse.ant.core; bundle-version="[3.1.0,4.0.0)"; resolution:="optional"
+                  -> Bundle-SymbolicName: org.eclipse.ant.core; bundle-version="3.4.0.v20150428-1928"; singleton:="true"
+                     org.eclipse.ant.core [73]
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.variables; bundle-version="[3.1.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.variables; bundle-version="3.2.800.v20130819-1716"; singleton:="true"
+                            org.eclipse.core.variables [99]
+                              Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+                                   org.eclipse.core.runtime [96]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+                                          org.eclipse.core.jobs [93]
+                                            Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.expressions; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.expressions; bundle-version="3.5.0.v20150421-2214"; singleton:="true"
+                     org.eclipse.core.expressions [87]
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+
+
+!ENTRY org.eclipse.recommenders.constructors.rcp 2 0 2016-01-29 11:32:07.881
+!MESSAGE Could not resolve module: org.eclipse.recommenders.constructors.rcp [415]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.jface 2 0 2016-01-29 11:32:07.881
+!MESSAGE Could not resolve module: org.eclipse.jface [249]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.commands; bundle-version="[3.4.0,4.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.core.commands; bundle-version="3.7.0.v20150422-0725"
+       org.eclipse.core.commands [81]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.m2e.discovery 2 0 2016-01-29 11:32:07.882
+!MESSAGE Could not resolve module: org.eclipse.m2e.discovery [261]
+  Unresolved requirement: Import-Package: org.apache.maven.plugin; provider="m2e"
+    -> Export-Package: org.apache.maven.plugin; bundle-version="1.6.2.20150902-0001"; provider="m2e"; bundle-symbolic-name="org.eclipse.m2e.maven.runtime"; version="0.0.0"; mandatory:="provider"
+       org.eclipse.m2e.maven.runtime [271]
+         Unresolved requirement: Require-Bundle: org.eclipse.m2e.maven.runtime.slf4j.simple; bundle-version="[1.6.0,1.7.0)"
+           -> Bundle-SymbolicName: org.eclipse.m2e.maven.runtime.slf4j.simple; bundle-version="1.6.2.20150902-0001"; singleton:="false"
+              org.eclipse.m2e.maven.runtime.slf4j.simple [272]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(|(&(osgi.ee=JavaSE)(version=1.7))(&(osgi.ee=JavaSE)(version=1.8)))"
+
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2016-01-29 11:32:07.882
+!MESSAGE Could not resolve module: org.eclipse.m2e.logback.configuration [269]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="3.5.0"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.core.databinding.beans 2 0 2016-01-29 11:32:07.882
+!MESSAGE Could not resolve module: org.eclipse.core.databinding.beans [84]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.databinding.observable; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.databinding.observable; bundle-version="1.5.0.v20150422-0725"
+       org.eclipse.core.databinding.observable [85]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.swtbot.generator.ui 2 0 2016-01-29 11:32:07.883
+!MESSAGE Could not resolve module: org.eclipse.swtbot.generator.ui [448]
+  Unresolved requirement: Require-Bundle: org.eclipse.swtbot.generator
+    -> Bundle-SymbolicName: org.eclipse.swtbot.generator; bundle-version="2.3.0.201506081302"; singleton:="true"
+       org.eclipse.swtbot.generator [445]
+         Unresolved requirement: Require-Bundle: org.eclipse.ui
+           -> Bundle-SymbolicName: org.eclipse.ui; bundle-version="3.107.0.v20150507-1945"; singleton:="true"
+              org.eclipse.ui [455]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+                     org.eclipse.core.runtime [96]
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+                            org.eclipse.core.jobs [93]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.oomph.resources 2 0 2016-01-29 11:32:07.883
+!MESSAGE Could not resolve module: org.eclipse.oomph.resources [364]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.resources; bundle-version="[3.5.0,4.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.core.resources; bundle-version="3.10.1.v20150725-1910"; singleton:="true"
+       org.eclipse.core.resources [95]
+         Unresolved requirement: Require-Bundle: org.eclipse.ant.core; bundle-version="[3.1.0,4.0.0)"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.ant.core; bundle-version="3.4.0.v20150428-1928"; singleton:="true"
+              org.eclipse.ant.core [73]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.variables; bundle-version="[3.1.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.variables; bundle-version="3.2.800.v20130819-1716"; singleton:="true"
+                     org.eclipse.core.variables [99]
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+                            org.eclipse.core.runtime [96]
+                              Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+                                   org.eclipse.core.jobs [93]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.expressions; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.expressions; bundle-version="3.5.0.v20150421-2214"; singleton:="true"
+              org.eclipse.core.expressions [87]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+
+
+!ENTRY org.eclipse.pde.api.tools 2 0 2016-01-29 11:32:07.884
+!MESSAGE Could not resolve module: org.eclipse.pde.api.tools [384]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.11.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.mylyn.wikitext.textile.core 2 0 2016-01-29 11:32:07.884
+!MESSAGE Could not resolve module: org.eclipse.mylyn.wikitext.textile.core [343]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.core; bundle-version="2.0.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.core; bundle-version="2.6.0.v20150901-2143"; singleton:="true"
+       org.eclipse.mylyn.wikitext.core [333]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.e4.ui.di 2 0 2016-01-29 11:32:07.884
+!MESSAGE Could not resolve module: org.eclipse.e4.ui.di [120]
+  Unresolved requirement: Require-Bundle: org.eclipse.e4.core.di; bundle-version="0.9.0"
+    -> Bundle-SymbolicName: org.eclipse.e4.core.di; bundle-version="1.5.0.v20150421-2214"
+       org.eclipse.e4.core.di [105]
+         Unresolved requirement: Require-Bundle: org.eclipse.e4.core.di.annotations; bundle-version="[1.4.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.e4.core.di.annotations; bundle-version="1.4.0.v20150528-1451"
+              org.eclipse.e4.core.di.annotations [106]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.jdt.apt.ui 2 0 2016-01-29 11:32:07.885
+!MESSAGE Could not resolve module: org.eclipse.jdt.apt.ui [223]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.2.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jdt.apt.core; bundle-version="3.4.0.v20150518-1201"; singleton:="true"
+       org.eclipse.jdt.apt.core [221]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.core; bundle-version="[3.6.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.core; bundle-version="3.11.1.v20150902-1521"; singleton:="true"
+              org.eclipse.jdt.core [226]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.resources; bundle-version="[3.3.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.resources; bundle-version="3.10.1.v20150725-1910"; singleton:="true"
+                     org.eclipse.core.resources [95]
+                       Unresolved requirement: Require-Bundle: org.eclipse.ant.core; bundle-version="[3.1.0,4.0.0)"; resolution:="optional"
+                         -> Bundle-SymbolicName: org.eclipse.ant.core; bundle-version="3.4.0.v20150428-1928"; singleton:="true"
+                            org.eclipse.ant.core [73]
+                              Unresolved requirement: Require-Bundle: org.eclipse.core.variables; bundle-version="[3.1.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.core.variables; bundle-version="3.2.800.v20130819-1716"; singleton:="true"
+                                   org.eclipse.core.variables [99]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+                                          org.eclipse.core.runtime [96]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+                                              -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+                                                 org.eclipse.core.jobs [93]
+                                                   Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.expressions; bundle-version="[3.2.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.expressions; bundle-version="3.5.0.v20150421-2214"; singleton:="true"
+                            org.eclipse.core.expressions [87]
+                              Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 2 0 2016-01-29 11:32:07.885
+!MESSAGE Could not resolve module: org.eclipse.equinox.p2.directorywatcher [181]
+  Unresolved requirement: Import-Package: org.eclipse.equinox.internal.p2.artifact.repository.simple
+    -> Export-Package: org.eclipse.equinox.internal.p2.artifact.repository.simple; bundle-version="1.1.400.v20150513-2116"; bundle-symbolic-name="org.eclipse.equinox.p2.artifact.repository"; version="0.0.0"; x-friends:="org.eclipse.equinox.p2.touchpoint.eclipse,  org.eclipse.equinox.p2.tests,  org.eclipse.equinox.p2.directorywatcher,  org.eclipse.equinox.p2.updatesite,  org.eclipse.equinox.p2.publisher,  org.eclipse.equinox.p2.extensionlocation,  org.eclipse.equinox.p2.repository.tools"
+       org.eclipse.equinox.p2.artifact.repository [176]
+         Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs
+           -> Export-Package: org.eclipse.core.runtime.jobs; bundle-version="3.7.0.v20150330-2103"; bundle-symbolic-name="org.eclipse.core.jobs"; version="0.0.0"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.pde.runtime 2 0 2016-01-29 11:32:07.885
+!MESSAGE Could not resolve module: org.eclipse.pde.runtime [394]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.11.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.oomph.resources.edit 2 0 2016-01-29 11:32:07.885
+!MESSAGE Could not resolve module: org.eclipse.oomph.resources.edit [365]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.5.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.ui.workbench.texteditor 2 0 2016-01-29 11:32:07.885
+!MESSAGE Could not resolve module: org.eclipse.ui.workbench.texteditor [477]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.5.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.pde.core 2 0 2016-01-29 11:32:07.886
+!MESSAGE Could not resolve module: org.eclipse.pde.core [388]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.11.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.ui.ide 2 0 2016-01-29 11:32:07.886
+!MESSAGE Could not resolve module: org.eclipse.ui.ide [463]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.resources; bundle-version="[3.7.0,4.0.0)"; resolution:="optional"
+    -> Bundle-SymbolicName: org.eclipse.core.resources; bundle-version="3.10.1.v20150725-1910"; singleton:="true"
+       org.eclipse.core.resources [95]
+         Unresolved requirement: Require-Bundle: org.eclipse.ant.core; bundle-version="[3.1.0,4.0.0)"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.ant.core; bundle-version="3.4.0.v20150428-1928"; singleton:="true"
+              org.eclipse.ant.core [73]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.variables; bundle-version="[3.1.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.variables; bundle-version="3.2.800.v20130819-1716"; singleton:="true"
+                     org.eclipse.core.variables [99]
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+                            org.eclipse.core.runtime [96]
+                              Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+                                   org.eclipse.core.jobs [93]
+                                     Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+         Unresolved requirement: Require-Bundle: org.eclipse.core.expressions; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.expressions; bundle-version="3.5.0.v20150421-2214"; singleton:="true"
+              org.eclipse.core.expressions [87]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+
+
+!ENTRY org.eclipse.oomph.p2 2 0 2016-01-29 11:32:07.886
+!MESSAGE Could not resolve module: org.eclipse.oomph.p2 [356]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.5.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY com.amzi.prolog.core 2 0 2016-01-29 11:32:07.886
+!MESSAGE Could not resolve module: com.amzi.prolog.core [8]
+  Unresolved requirement: Require-Bundle: org.eclipse.ui
+    -> Bundle-SymbolicName: org.eclipse.ui; bundle-version="3.107.0.v20150507-1945"; singleton:="true"
+       org.eclipse.ui [455]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.2.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+              org.eclipse.core.runtime [96]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+                     org.eclipse.core.jobs [93]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.ecf.ssl 2 0 2016-01-29 11:32:07.886
+!MESSAGE Could not resolve module: org.eclipse.ecf.ssl [138]
+  Unresolved requirement: Fragment-Host: org.eclipse.ecf
+    -> Bundle-SymbolicName: org.eclipse.ecf; bundle-version="3.5.0.v20150810-1719"; singleton:="true"
+       org.eclipse.ecf [131]
+         Unresolved requirement: Import-Package: org.eclipse.core.runtime.jobs
+           -> Export-Package: org.eclipse.core.runtime.jobs; bundle-version="3.7.0.v20150330-2103"; bundle-symbolic-name="org.eclipse.core.jobs"; version="0.0.0"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.ltk.ui.refactoring 2 0 2016-01-29 11:32:07.887
+!MESSAGE Could not resolve module: org.eclipse.ltk.ui.refactoring [257]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.5.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.e4.core.di.extensions 2 0 2016-01-29 11:32:07.887
+!MESSAGE Could not resolve module: org.eclipse.e4.core.di.extensions [107]
+  Unresolved requirement: Require-Bundle: org.eclipse.e4.core.di; bundle-version="0.9.0"
+    -> Bundle-SymbolicName: org.eclipse.e4.core.di; bundle-version="1.5.0.v20150421-2214"
+       org.eclipse.e4.core.di [105]
+         Unresolved requirement: Require-Bundle: org.eclipse.e4.core.di.annotations; bundle-version="[1.4.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.e4.core.di.annotations; bundle-version="1.4.0.v20150528-1451"
+              org.eclipse.e4.core.di.annotations [106]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.mylyn.wikitext.tasks.ui 2 0 2016-01-29 11:32:07.887
+!MESSAGE Could not resolve module: org.eclipse.mylyn.wikitext.tasks.ui [342]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.wikitext.core; bundle-version="2.0.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.wikitext.core; bundle-version="2.6.0.v20150901-2143"; singleton:="true"
+       org.eclipse.mylyn.wikitext.core [333]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2016-01-29 11:32:07.887
+!MESSAGE Could not resolve module: org.eclipse.mylyn.tasks.core [322]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.runtime
+    -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+       org.eclipse.core.runtime [96]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+              org.eclipse.core.jobs [93]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+
+!ENTRY org.eclipse.wst.common.emfworkbench.integration 2 0 2016-01-29 11:32:07.888
+!MESSAGE Could not resolve module: org.eclipse.wst.common.emfworkbench.integration [498]
+  Unresolved requirement: Require-Bundle: org.eclipse.wst.common.frameworks; bundle-version="[1.1.200,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.wst.common.frameworks; bundle-version="1.2.200.v201304241450"; singleton:="true"
+       org.eclipse.wst.common.frameworks [500]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.resources; bundle-version="[3.4.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.core.resources; bundle-version="3.10.1.v20150725-1910"; singleton:="true"
+              org.eclipse.core.resources [95]
+                Unresolved requirement: Require-Bundle: org.eclipse.ant.core; bundle-version="[3.1.0,4.0.0)"; resolution:="optional"
+                  -> Bundle-SymbolicName: org.eclipse.ant.core; bundle-version="3.4.0.v20150428-1928"; singleton:="true"
+                     org.eclipse.ant.core [73]
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.variables; bundle-version="[3.1.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.variables; bundle-version="3.2.800.v20130819-1716"; singleton:="true"
+                            org.eclipse.core.variables [99]
+                              Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+                                   org.eclipse.core.runtime [96]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.core.jobs; bundle-version="[3.2.0,4.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.core.jobs; bundle-version="3.7.0.v20150330-2103"; singleton:="true"
+                                          org.eclipse.core.jobs [93]
+                                            Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+                Unresolved requirement: Require-Bundle: org.eclipse.core.expressions; bundle-version="[3.2.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.core.expressions; bundle-version="3.5.0.v20150421-2214"; singleton:="true"
+                     org.eclipse.core.expressions [87]
+                       Unresolved requirement: Require-Bundle: org.eclipse.core.runtime; bundle-version="[3.3.0,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.core.runtime; bundle-version="3.11.1.v20150903-1804"; singleton:="true"
+
+
+!ENTRY org.eclipse.osgi 4 0 2016-01-29 11:32:07.888
+!MESSAGE Application error
+!STACK 1
+java.lang.IllegalStateException: Unable to acquire application service. Ensure that the org.eclipse.core.runtime bundle is resolved and started (see config.ini).
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:78)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)

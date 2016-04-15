@@ -1,0 +1,444 @@
+!SESSION 2010-06-09 14:34:27.173 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.sdk.ide
+Command-line arguments:  -product org.eclipse.sdk.ide -data C:\amzi\source\eclipse\ide\workspace/../runtime-EclipseApplication -dev file:C:/amzi/source/eclipse/ide/workspace/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 0 2010-06-09 14:34:31.585
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.585
+!MESSAGE Bundle org.eclipse.core.filesystem.aix.ppc_1.0.0.R35x_v20091203-1235 [661] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.aix.ppc 2 0 2010-06-09 14:34:31.585
+!MESSAGE Platform filter did not match: (& (osgi.os=aix) (osgi.arch=ppc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.585
+!MESSAGE Bundle org.eclipse.core.filesystem.hpux.PA_RISC_1.0.0.v20080604-1400 [662] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.hpux.PA_RISC 2 0 2010-06-09 14:34:31.585
+!MESSAGE Platform filter did not match: (& (osgi.os=hpux) (osgi.arch=PA_RISC))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.585
+!MESSAGE Bundle org.eclipse.core.filesystem.hpux.ia64_32_1.0.0.v20080604-1400 [663] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.hpux.ia64_32 2 0 2010-06-09 14:34:31.585
+!MESSAGE Platform filter did not match: (& (osgi.os=hpux) (osgi.arch=ia64_32))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.585
+!MESSAGE Bundle org.eclipse.core.filesystem.linux.ppc_1.0.100.v20080604-1400 [664] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.linux.ppc 2 0 2010-06-09 14:34:31.585
+!MESSAGE Platform filter did not match: (& (osgi.os=linux) (osgi.arch=ppc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.585
+!MESSAGE Bundle org.eclipse.core.filesystem.linux.x86_1.3.0.R35x_v20091203-1235 [665] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.linux.x86 2 0 2010-06-09 14:34:31.585
+!MESSAGE Platform filter did not match: (& (osgi.os=linux) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.585
+!MESSAGE Bundle org.eclipse.core.filesystem.linux.x86_64_1.1.0.R35x_v20091203-1235 [666] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.linux.x86_64 2 0 2010-06-09 14:34:31.585
+!MESSAGE Platform filter did not match: (& (osgi.os=linux) (osgi.arch=x86_64))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.585
+!MESSAGE Bundle org.eclipse.core.filesystem.macosx_1.2.0.R35x_v20091203-1235 [667] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.macosx 2 0 2010-06-09 14:34:31.585
+!MESSAGE Platform filter did not match: (& (osgi.os=macosx) (|(osgi.arch=x86) (osgi.arch=ppc) (osgi.arch=x86_64)))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.585
+!MESSAGE Bundle org.eclipse.core.filesystem.qnx.x86_1.0.0.v20080604-1400 [668] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.qnx.x86 2 0 2010-06-09 14:34:31.585
+!MESSAGE Platform filter did not match: (& (osgi.os=qnx) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.585
+!MESSAGE Bundle org.eclipse.core.filesystem.solaris.sparc_1.1.0.R35x_v20091203-1235 [669] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.solaris.sparc 2 0 2010-06-09 14:34:31.586
+!MESSAGE Platform filter did not match: (& (osgi.os=solaris) (osgi.arch=sparc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.586
+!MESSAGE Bundle org.eclipse.core.filesystem.win32.x86_64_1.1.0.v20090316-0910 [672] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.win32.x86_64 2 0 2010-06-09 14:34:31.586
+!MESSAGE Platform filter did not match: (& (osgi.os=win32) (osgi.arch=x86_64))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.586
+!MESSAGE Bundle org.eclipse.core.net.linux.x86_1.1.0.I20081021 [675] was not resolved.
+!SUBENTRY 2 org.eclipse.core.net.linux.x86 2 0 2010-06-09 14:34:31.586
+!MESSAGE Platform filter did not match: (& (osgi.os=linux) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.586
+!MESSAGE Bundle org.eclipse.core.net.win32.x86_64_1.0.0.I20090306-1030 [678] was not resolved.
+!SUBENTRY 2 org.eclipse.core.net.win32.x86_64 2 0 2010-06-09 14:34:31.586
+!MESSAGE Platform filter did not match: (& (osgi.os=win32) (osgi.arch=x86_64))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.586
+!MESSAGE Bundle org.eclipse.equinox.launcher.carbon.macosx_1.0.200.v20090520-1835 [711] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.carbon.macosx 2 0 2010-06-09 14:34:31.586
+!MESSAGE Platform filter did not match: (& (osgi.ws=carbon) (osgi.os=macosx) (|(osgi.arch=x86)(osgi.arch=ppc)) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.586
+!MESSAGE Bundle org.eclipse.equinox.launcher.cocoa.macosx_1.0.1.R35x_v20090707 [712] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.cocoa.macosx 2 0 2010-06-09 14:34:31.586
+!MESSAGE Platform filter did not match: (& (osgi.ws=cocoa) (osgi.os=macosx) (|(osgi.arch=x86)(osgi.arch=ppc)) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.586
+!MESSAGE Bundle org.eclipse.equinox.launcher.cocoa.macosx.x86_64_1.0.1.R35x_v20090707 [713] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.cocoa.macosx.x86_64 2 0 2010-06-09 14:34:31.586
+!MESSAGE Platform filter did not match: (& (osgi.ws=cocoa) (osgi.os=macosx) (osgi.arch=x86_64) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.586
+!MESSAGE Bundle org.eclipse.equinox.launcher.gtk.linux.ppc_1.0.200.v20090519 [714] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.gtk.linux.ppc 2 0 2010-06-09 14:34:31.586
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=ppc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.586
+!MESSAGE Bundle org.eclipse.equinox.launcher.gtk.linux.s390_1.0.100.v20090426-1530 [715] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.gtk.linux.s390 2 0 2010-06-09 14:34:31.586
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=s390))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.586
+!MESSAGE Bundle org.eclipse.equinox.launcher.gtk.linux.s390x_1.0.100.v20090426-1530 [716] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.gtk.linux.s390x 2 0 2010-06-09 14:34:31.586
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=s390x))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.586
+!MESSAGE Bundle org.eclipse.equinox.launcher.gtk.linux.x86_1.0.200.v20090520 [717] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.gtk.linux.x86 2 0 2010-06-09 14:34:31.587
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.587
+!MESSAGE Bundle org.eclipse.equinox.launcher.gtk.linux.x86_64_1.0.200.v20090519 [718] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.gtk.linux.x86_64 2 0 2010-06-09 14:34:31.587
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=x86_64))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.587
+!MESSAGE Bundle org.eclipse.equinox.launcher.gtk.solaris.sparc_1.0.201.R35x_v20090720 [719] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.gtk.solaris.sparc 2 0 2010-06-09 14:34:31.587
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=solaris) (osgi.arch=sparc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.587
+!MESSAGE Bundle org.eclipse.equinox.launcher.gtk.solaris.x86_1.0.201.R35x_v20090720 [720] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.gtk.solaris.x86 2 0 2010-06-09 14:34:31.587
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=solaris) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.587
+!MESSAGE Bundle org.eclipse.equinox.launcher.motif.aix.ppc_1.0.201.R35x_v20091211 [721] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.motif.aix.ppc 2 0 2010-06-09 14:34:31.587
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=aix) (osgi.arch=ppc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.587
+!MESSAGE Bundle org.eclipse.equinox.launcher.motif.hpux.PA_RISC_1.0.100.v20090306-1900 [722] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.motif.hpux.PA_RISC 2 0 2010-06-09 14:34:31.587
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=hpux) (osgi.arch=PA_RISC))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.equinox.launcher.motif.hpux.ia64_32_1.0.100.v20090519 [723] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.motif.hpux.ia64_32 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=hpux) (osgi.arch=ia64_32) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.equinox.launcher.motif.linux.x86_1.0.201.R35x_v20100209 [724] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.motif.linux.x86 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=linux) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.equinox.launcher.motif.solaris.sparc_1.0.300.R35x_20090929 [725] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.motif.solaris.sparc 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=solaris) (osgi.arch=sparc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.equinox.launcher.win32.win32.x86_64_1.0.200.v20090519 [728] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.win32.win32.x86_64 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (& (osgi.ws=win32) (osgi.os=win32) (osgi.arch=x86_64))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.equinox.launcher.wpf.win32.x86_1.0.200.v20090519 [729] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.wpf.win32.x86 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (& (osgi.ws=wpf) (osgi.os=win32) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.equinox.security.macosx_1.100.0.v20090520-1800 [758] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.security.macosx 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (& (osgi.os=macosx) (|(osgi.arch=x86)(osgi.arch=x86_64)(osgi.arch=ppc)) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.jdt.launching.macosx_3.2.0.v20090527 [785] was not resolved.
+!SUBENTRY 2 org.eclipse.jdt.launching.macosx 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (osgi.os=macosx)
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.jdt.launching.ui.macosx_1.0.0.v20090527 [786] was not resolved.
+!SUBENTRY 2 org.eclipse.jdt.launching.ui.macosx 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (osgi.os=macosx)
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.swt.carbon.macosx_3.5.2.v3557f [818] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.carbon.macosx 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (& (osgi.ws=carbon) (osgi.os=macosx) (|(osgi.arch=x86)(osgi.arch=ppc)) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.swt.cocoa.macosx_3.5.2.v3557f [819] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.cocoa.macosx 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (& (osgi.ws=cocoa) (osgi.os=macosx) (|(osgi.arch=x86)(osgi.arch=ppc)) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.swt.cocoa.macosx.x86_64_3.5.2.v3557f [820] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.cocoa.macosx.x86_64 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (& (osgi.ws=cocoa) (osgi.os=macosx) (osgi.arch=x86_64) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.swt.gtk.linux.ppc_3.5.2.v3557f [821] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.gtk.linux.ppc 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=ppc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.swt.gtk.linux.s390_3.5.0.v3550b [822] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.gtk.linux.s390 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=s390))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.swt.gtk.linux.s390x_3.5.0.v3550b [823] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.gtk.linux.s390x 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=s390x))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.swt.gtk.linux.x86_3.5.2.v3557f [824] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.gtk.linux.x86 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.swt.gtk.linux.x86_64_3.5.2.v3557f [825] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.gtk.linux.x86_64 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=x86_64))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.swt.gtk.solaris.sparc_3.5.2.v3557f [826] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.gtk.solaris.sparc 2 0 2010-06-09 14:34:31.588
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=solaris) (osgi.arch=sparc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.588
+!MESSAGE Bundle org.eclipse.swt.gtk.solaris.x86_3.5.2.v3557f [827] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.gtk.solaris.x86 2 0 2010-06-09 14:34:31.589
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=solaris) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.589
+!MESSAGE Bundle org.eclipse.swt.motif.aix.ppc_3.5.2.v3557f [828] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.motif.aix.ppc 2 0 2010-06-09 14:34:31.589
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=aix) (osgi.arch=ppc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.589
+!MESSAGE Bundle org.eclipse.swt.motif.hpux.PA_RISC_3.5.0.HEAD [829] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.motif.hpux.PA_RISC 2 0 2010-06-09 14:34:31.589
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=hpux) (osgi.arch=PA_RISC))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.589
+!MESSAGE Bundle org.eclipse.swt.motif.hpux.ia64_32_3.5.2.v3557f [830] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.motif.hpux.ia64_32 2 0 2010-06-09 14:34:31.589
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=hpux) (osgi.arch=ia64_32))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.589
+!MESSAGE Bundle org.eclipse.swt.motif.linux.x86_3.5.2.v3557f [831] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.motif.linux.x86 2 0 2010-06-09 14:34:31.589
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=linux) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.589
+!MESSAGE Bundle org.eclipse.swt.motif.solaris.sparc_3.5.2.v3557f [832] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.motif.solaris.sparc 2 0 2010-06-09 14:34:31.589
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=solaris) (osgi.arch=sparc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.589
+!MESSAGE Bundle org.eclipse.swt.photon.qnx.x86_3.5.2.v3557f [833] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.photon.qnx.x86 2 0 2010-06-09 14:34:31.589
+!MESSAGE Platform filter did not match: (& (osgi.ws=photon) (osgi.os=qnx) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.591
+!MESSAGE Bundle org.eclipse.swt.win32.win32.x86_64_3.5.2.v3557f [836] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.win32.win32.x86_64 2 0 2010-06-09 14:34:31.592
+!MESSAGE Platform filter did not match: (& (osgi.ws=win32) (osgi.os=win32) (osgi.arch=x86_64))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.592
+!MESSAGE Bundle org.eclipse.swt.wpf.win32.x86_3.5.2.v3557f [837] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.wpf.win32.x86 2 0 2010-06-09 14:34:31.592
+!MESSAGE Platform filter did not match: (& (osgi.ws=wpf) (osgi.os=win32) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.592
+!MESSAGE Bundle org.eclipse.ui.carbon_4.0.0.I20090525-2000 [847] was not resolved.
+!SUBENTRY 2 org.eclipse.ui.carbon 2 0 2010-06-09 14:34:31.592
+!MESSAGE Platform filter did not match: (osgi.ws=carbon)
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.592
+!MESSAGE Bundle org.eclipse.ui.cocoa_1.0.0.I20090525-2000 [849] was not resolved.
+!SUBENTRY 2 org.eclipse.ui.cocoa 2 0 2010-06-09 14:34:31.592
+!MESSAGE Platform filter did not match: (osgi.ws=cocoa)
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:34:31.592
+!MESSAGE Bundle org.eclipse.update.core.linux_3.2.100.v20081008 [872] was not resolved.
+!SUBENTRY 2 org.eclipse.update.core.linux 2 0 2010-06-09 14:34:31.592
+!MESSAGE Platform filter did not match: (& (osgi.os=linux) (osgi.arch=x86))
+!SESSION 2010-06-09 14:36:28.603 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.sdk.ide
+Command-line arguments:  -product org.eclipse.sdk.ide -data C:\amzi\source\eclipse\ide\workspace/../runtime-EclipseApplication -dev file:C:/amzi/source/eclipse/ide/workspace/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 0 2010-06-09 14:36:30.483
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.483
+!MESSAGE Bundle org.eclipse.core.filesystem.aix.ppc_1.0.0.R35x_v20091203-1235 [661] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.aix.ppc 2 0 2010-06-09 14:36:30.483
+!MESSAGE Platform filter did not match: (& (osgi.os=aix) (osgi.arch=ppc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.483
+!MESSAGE Bundle org.eclipse.core.filesystem.hpux.PA_RISC_1.0.0.v20080604-1400 [662] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.hpux.PA_RISC 2 0 2010-06-09 14:36:30.483
+!MESSAGE Platform filter did not match: (& (osgi.os=hpux) (osgi.arch=PA_RISC))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.483
+!MESSAGE Bundle org.eclipse.core.filesystem.hpux.ia64_32_1.0.0.v20080604-1400 [663] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.hpux.ia64_32 2 0 2010-06-09 14:36:30.483
+!MESSAGE Platform filter did not match: (& (osgi.os=hpux) (osgi.arch=ia64_32))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.483
+!MESSAGE Bundle org.eclipse.core.filesystem.linux.ppc_1.0.100.v20080604-1400 [664] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.linux.ppc 2 0 2010-06-09 14:36:30.483
+!MESSAGE Platform filter did not match: (& (osgi.os=linux) (osgi.arch=ppc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.483
+!MESSAGE Bundle org.eclipse.core.filesystem.linux.x86_1.3.0.R35x_v20091203-1235 [665] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.linux.x86 2 0 2010-06-09 14:36:30.483
+!MESSAGE Platform filter did not match: (& (osgi.os=linux) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.483
+!MESSAGE Bundle org.eclipse.core.filesystem.linux.x86_64_1.1.0.R35x_v20091203-1235 [666] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.linux.x86_64 2 0 2010-06-09 14:36:30.483
+!MESSAGE Platform filter did not match: (& (osgi.os=linux) (osgi.arch=x86_64))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.483
+!MESSAGE Bundle org.eclipse.core.filesystem.macosx_1.2.0.R35x_v20091203-1235 [667] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.macosx 2 0 2010-06-09 14:36:30.483
+!MESSAGE Platform filter did not match: (& (osgi.os=macosx) (|(osgi.arch=x86) (osgi.arch=ppc) (osgi.arch=x86_64)))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.484
+!MESSAGE Bundle org.eclipse.core.filesystem.qnx.x86_1.0.0.v20080604-1400 [668] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.qnx.x86 2 0 2010-06-09 14:36:30.484
+!MESSAGE Platform filter did not match: (& (osgi.os=qnx) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.484
+!MESSAGE Bundle org.eclipse.core.filesystem.solaris.sparc_1.1.0.R35x_v20091203-1235 [669] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.solaris.sparc 2 0 2010-06-09 14:36:30.484
+!MESSAGE Platform filter did not match: (& (osgi.os=solaris) (osgi.arch=sparc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.484
+!MESSAGE Bundle org.eclipse.core.filesystem.win32.x86_64_1.1.0.v20090316-0910 [672] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.win32.x86_64 2 0 2010-06-09 14:36:30.484
+!MESSAGE Platform filter did not match: (& (osgi.os=win32) (osgi.arch=x86_64))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.484
+!MESSAGE Bundle org.eclipse.core.net.linux.x86_1.1.0.I20081021 [675] was not resolved.
+!SUBENTRY 2 org.eclipse.core.net.linux.x86 2 0 2010-06-09 14:36:30.484
+!MESSAGE Platform filter did not match: (& (osgi.os=linux) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.484
+!MESSAGE Bundle org.eclipse.core.net.win32.x86_64_1.0.0.I20090306-1030 [678] was not resolved.
+!SUBENTRY 2 org.eclipse.core.net.win32.x86_64 2 0 2010-06-09 14:36:30.484
+!MESSAGE Platform filter did not match: (& (osgi.os=win32) (osgi.arch=x86_64))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.484
+!MESSAGE Bundle org.eclipse.equinox.launcher.carbon.macosx_1.0.200.v20090520-1835 [711] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.carbon.macosx 2 0 2010-06-09 14:36:30.484
+!MESSAGE Platform filter did not match: (& (osgi.ws=carbon) (osgi.os=macosx) (|(osgi.arch=x86)(osgi.arch=ppc)) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.484
+!MESSAGE Bundle org.eclipse.equinox.launcher.cocoa.macosx_1.0.1.R35x_v20090707 [712] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.cocoa.macosx 2 0 2010-06-09 14:36:30.484
+!MESSAGE Platform filter did not match: (& (osgi.ws=cocoa) (osgi.os=macosx) (|(osgi.arch=x86)(osgi.arch=ppc)) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.484
+!MESSAGE Bundle org.eclipse.equinox.launcher.cocoa.macosx.x86_64_1.0.1.R35x_v20090707 [713] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.cocoa.macosx.x86_64 2 0 2010-06-09 14:36:30.484
+!MESSAGE Platform filter did not match: (& (osgi.ws=cocoa) (osgi.os=macosx) (osgi.arch=x86_64) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.484
+!MESSAGE Bundle org.eclipse.equinox.launcher.gtk.linux.ppc_1.0.200.v20090519 [714] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.gtk.linux.ppc 2 0 2010-06-09 14:36:30.484
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=ppc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.484
+!MESSAGE Bundle org.eclipse.equinox.launcher.gtk.linux.s390_1.0.100.v20090426-1530 [715] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.gtk.linux.s390 2 0 2010-06-09 14:36:30.484
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=s390))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.484
+!MESSAGE Bundle org.eclipse.equinox.launcher.gtk.linux.s390x_1.0.100.v20090426-1530 [716] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.gtk.linux.s390x 2 0 2010-06-09 14:36:30.484
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=s390x))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.484
+!MESSAGE Bundle org.eclipse.equinox.launcher.gtk.linux.x86_1.0.200.v20090520 [717] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.gtk.linux.x86 2 0 2010-06-09 14:36:30.484
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.484
+!MESSAGE Bundle org.eclipse.equinox.launcher.gtk.linux.x86_64_1.0.200.v20090519 [718] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.gtk.linux.x86_64 2 0 2010-06-09 14:36:30.484
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=x86_64))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.485
+!MESSAGE Bundle org.eclipse.equinox.launcher.gtk.solaris.sparc_1.0.201.R35x_v20090720 [719] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.gtk.solaris.sparc 2 0 2010-06-09 14:36:30.485
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=solaris) (osgi.arch=sparc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.485
+!MESSAGE Bundle org.eclipse.equinox.launcher.gtk.solaris.x86_1.0.201.R35x_v20090720 [720] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.gtk.solaris.x86 2 0 2010-06-09 14:36:30.485
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=solaris) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.485
+!MESSAGE Bundle org.eclipse.equinox.launcher.motif.aix.ppc_1.0.201.R35x_v20091211 [721] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.motif.aix.ppc 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=aix) (osgi.arch=ppc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.486
+!MESSAGE Bundle org.eclipse.equinox.launcher.motif.hpux.PA_RISC_1.0.100.v20090306-1900 [722] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.motif.hpux.PA_RISC 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=hpux) (osgi.arch=PA_RISC))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.486
+!MESSAGE Bundle org.eclipse.equinox.launcher.motif.hpux.ia64_32_1.0.100.v20090519 [723] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.motif.hpux.ia64_32 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=hpux) (osgi.arch=ia64_32) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.486
+!MESSAGE Bundle org.eclipse.equinox.launcher.motif.linux.x86_1.0.201.R35x_v20100209 [724] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.motif.linux.x86 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=linux) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.486
+!MESSAGE Bundle org.eclipse.equinox.launcher.motif.solaris.sparc_1.0.300.R35x_20090929 [725] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.motif.solaris.sparc 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=solaris) (osgi.arch=sparc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.486
+!MESSAGE Bundle org.eclipse.equinox.launcher.win32.win32.x86_64_1.0.200.v20090519 [728] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.win32.win32.x86_64 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (& (osgi.ws=win32) (osgi.os=win32) (osgi.arch=x86_64))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.486
+!MESSAGE Bundle org.eclipse.equinox.launcher.wpf.win32.x86_1.0.200.v20090519 [729] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.launcher.wpf.win32.x86 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (& (osgi.ws=wpf) (osgi.os=win32) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.486
+!MESSAGE Bundle org.eclipse.equinox.security.macosx_1.100.0.v20090520-1800 [758] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.security.macosx 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (& (osgi.os=macosx) (|(osgi.arch=x86)(osgi.arch=x86_64)(osgi.arch=ppc)) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.486
+!MESSAGE Bundle org.eclipse.jdt.launching.macosx_3.2.0.v20090527 [785] was not resolved.
+!SUBENTRY 2 org.eclipse.jdt.launching.macosx 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (osgi.os=macosx)
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.486
+!MESSAGE Bundle org.eclipse.jdt.launching.ui.macosx_1.0.0.v20090527 [786] was not resolved.
+!SUBENTRY 2 org.eclipse.jdt.launching.ui.macosx 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (osgi.os=macosx)
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.486
+!MESSAGE Bundle org.eclipse.swt.carbon.macosx_3.5.2.v3557f [818] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.carbon.macosx 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (& (osgi.ws=carbon) (osgi.os=macosx) (|(osgi.arch=x86)(osgi.arch=ppc)) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.486
+!MESSAGE Bundle org.eclipse.swt.cocoa.macosx_3.5.2.v3557f [819] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.cocoa.macosx 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (& (osgi.ws=cocoa) (osgi.os=macosx) (|(osgi.arch=x86)(osgi.arch=ppc)) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.486
+!MESSAGE Bundle org.eclipse.swt.cocoa.macosx.x86_64_3.5.2.v3557f [820] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.cocoa.macosx.x86_64 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (& (osgi.ws=cocoa) (osgi.os=macosx) (osgi.arch=x86_64) )
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.486
+!MESSAGE Bundle org.eclipse.swt.gtk.linux.ppc_3.5.2.v3557f [821] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.gtk.linux.ppc 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=ppc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.486
+!MESSAGE Bundle org.eclipse.swt.gtk.linux.s390_3.5.0.v3550b [822] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.gtk.linux.s390 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=s390))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.486
+!MESSAGE Bundle org.eclipse.swt.gtk.linux.s390x_3.5.0.v3550b [823] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.gtk.linux.s390x 2 0 2010-06-09 14:36:30.486
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=s390x))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.487
+!MESSAGE Bundle org.eclipse.swt.gtk.linux.x86_3.5.2.v3557f [824] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.gtk.linux.x86 2 0 2010-06-09 14:36:30.487
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.487
+!MESSAGE Bundle org.eclipse.swt.gtk.linux.x86_64_3.5.2.v3557f [825] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.gtk.linux.x86_64 2 0 2010-06-09 14:36:30.487
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=x86_64))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.487
+!MESSAGE Bundle org.eclipse.swt.gtk.solaris.sparc_3.5.2.v3557f [826] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.gtk.solaris.sparc 2 0 2010-06-09 14:36:30.487
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=solaris) (osgi.arch=sparc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.487
+!MESSAGE Bundle org.eclipse.swt.gtk.solaris.x86_3.5.2.v3557f [827] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.gtk.solaris.x86 2 0 2010-06-09 14:36:30.487
+!MESSAGE Platform filter did not match: (& (osgi.ws=gtk) (osgi.os=solaris) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.487
+!MESSAGE Bundle org.eclipse.swt.motif.aix.ppc_3.5.2.v3557f [828] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.motif.aix.ppc 2 0 2010-06-09 14:36:30.487
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=aix) (osgi.arch=ppc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.487
+!MESSAGE Bundle org.eclipse.swt.motif.hpux.PA_RISC_3.5.0.HEAD [829] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.motif.hpux.PA_RISC 2 0 2010-06-09 14:36:30.487
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=hpux) (osgi.arch=PA_RISC))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.488
+!MESSAGE Bundle org.eclipse.swt.motif.hpux.ia64_32_3.5.2.v3557f [830] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.motif.hpux.ia64_32 2 0 2010-06-09 14:36:30.488
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=hpux) (osgi.arch=ia64_32))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.488
+!MESSAGE Bundle org.eclipse.swt.motif.linux.x86_3.5.2.v3557f [831] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.motif.linux.x86 2 0 2010-06-09 14:36:30.488
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=linux) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.488
+!MESSAGE Bundle org.eclipse.swt.motif.solaris.sparc_3.5.2.v3557f [832] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.motif.solaris.sparc 2 0 2010-06-09 14:36:30.488
+!MESSAGE Platform filter did not match: (& (osgi.ws=motif) (osgi.os=solaris) (osgi.arch=sparc))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.488
+!MESSAGE Bundle org.eclipse.swt.photon.qnx.x86_3.5.2.v3557f [833] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.photon.qnx.x86 2 0 2010-06-09 14:36:30.488
+!MESSAGE Platform filter did not match: (& (osgi.ws=photon) (osgi.os=qnx) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.490
+!MESSAGE Bundle org.eclipse.swt.win32.win32.x86_64_3.5.2.v3557f [836] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.win32.win32.x86_64 2 0 2010-06-09 14:36:30.490
+!MESSAGE Platform filter did not match: (& (osgi.ws=win32) (osgi.os=win32) (osgi.arch=x86_64))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.490
+!MESSAGE Bundle org.eclipse.swt.wpf.win32.x86_3.5.2.v3557f [837] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.wpf.win32.x86 2 0 2010-06-09 14:36:30.490
+!MESSAGE Platform filter did not match: (& (osgi.ws=wpf) (osgi.os=win32) (osgi.arch=x86))
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.490
+!MESSAGE Bundle org.eclipse.ui.carbon_4.0.0.I20090525-2000 [847] was not resolved.
+!SUBENTRY 2 org.eclipse.ui.carbon 2 0 2010-06-09 14:36:30.490
+!MESSAGE Platform filter did not match: (osgi.ws=carbon)
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.490
+!MESSAGE Bundle org.eclipse.ui.cocoa_1.0.0.I20090525-2000 [849] was not resolved.
+!SUBENTRY 2 org.eclipse.ui.cocoa 2 0 2010-06-09 14:36:30.490
+!MESSAGE Platform filter did not match: (osgi.ws=cocoa)
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:36:30.490
+!MESSAGE Bundle org.eclipse.update.core.linux_3.2.100.v20081008 [872] was not resolved.
+!SUBENTRY 2 org.eclipse.update.core.linux 2 0 2010-06-09 14:36:30.490
+!MESSAGE Platform filter did not match: (& (osgi.os=linux) (osgi.arch=x86))

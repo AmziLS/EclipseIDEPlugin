@@ -1,0 +1,57 @@
+!SESSION 2010-06-09 14:45:45.938 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.amzi.prolog.ide
+Command-line arguments:  -product com.amzi.prolog.ide -data C:\amzi\source\eclipse\ide\workspace/../runtime-amzi.product -dev file:C:/amzi/source/eclipse/ide/workspace/.metadata/.plugins/org.eclipse.pde.core/amzi.product/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.app 0 0 2010-06-09 14:45:47.440
+!MESSAGE Product com.amzi.prolog.ide could not be found.
+
+!ENTRY org.eclipse.osgi 2 0 2010-06-09 14:45:47.470
+!MESSAGE One or more bundles are not resolved because the following root constraints are not resolved:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:45:47.470
+!MESSAGE Bundle reference:file:/C:/amzi/source/eclipse/ide/workspace/com.amzi.prolog/ was not resolved.
+!SUBENTRY 2 com.amzi.prolog 2 0 2010-06-09 14:45:47.470
+!MESSAGE Missing required bundle com.amzi.prolog.help_[3.5.9201,4.0.0).
+
+!ENTRY org.eclipse.osgi 2 0 2010-06-09 14:45:47.471
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:45:47.471
+!MESSAGE Bundle com.amzi.prolog_3.5.9201 [1733] was not resolved.
+!SUBENTRY 2 com.amzi.prolog 2 0 2010-06-09 14:45:47.471
+!MESSAGE Missing required bundle com.amzi.prolog.help_[3.5.9201,4.0.0).
+
+!ENTRY org.eclipse.osgi 4 0 2010-06-09 14:45:47.486
+!MESSAGE Application error
+!STACK 1
+java.lang.RuntimeException: No application id has been found.
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.startDefaultApp(EclipseAppContainer.java:236)
+	at org.eclipse.equinox.internal.app.MainApplicationLauncher.run(MainApplicationLauncher.java:29)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1287)
+
+!ENTRY org.eclipse.osgi 2 0 2010-06-09 14:45:47.493
+!MESSAGE One or more bundles are not resolved because the following root constraints are not resolved:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:45:47.493
+!MESSAGE Bundle reference:file:/C:/amzi/source/eclipse/ide/workspace/com.amzi.prolog/ was not resolved.
+!SUBENTRY 2 com.amzi.prolog 2 0 2010-06-09 14:45:47.493
+!MESSAGE Missing required bundle com.amzi.prolog.help_[3.5.9201,4.0.0).
+
+!ENTRY org.eclipse.osgi 2 0 2010-06-09 14:45:47.494
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2010-06-09 14:45:47.494
+!MESSAGE Bundle com.amzi.prolog_3.5.9201 [1733] was not resolved.
+!SUBENTRY 2 com.amzi.prolog 2 0 2010-06-09 14:45:47.494
+!MESSAGE Missing required bundle com.amzi.prolog.help_[3.5.9201,4.0.0).

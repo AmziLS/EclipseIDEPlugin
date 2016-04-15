@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='file:/Users/dennis/Work/github/amzi/source/eclipse/amzi-ide/workspace/.metadata/.plugins/org.eclipse.pde.core/tempp2metadata - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1456324704076'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='8'>
+    <unit id='com.amzi.prolog.ui' version='4.5.10001'>
+      <update id='com.amzi.prolog.ui' range='[0.0.0,4.5.10001)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Amzi! User Interface'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Amzi! inc.'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='15'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.ui' version='4.5.10001'/>
+        <provided namespace='osgi.bundle' name='com.amzi.prolog.ui' version='4.5.10001'/>
+        <provided namespace='java.package' name='com.amzi.prolog.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.ui.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.ui.build' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.ui.dialogs' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.ui.editor' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.ui.editor.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.ui.editor.internal' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.ui.internal' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.ui.launch' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.ui.preferences' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.ui.views' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.ui.wizards' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='13'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.views' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.amzi.prolog.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.amzi.prolog.debug' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.swt' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.ui' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.amzi.prolog.ui' version='4.5.10001'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.amzi.prolog.ui; singleton:=true&#xA;Bundle-Version: 4.5.10001
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.amzi.prolog.feature.group' version='4.5.10001' singleton='false'>
+      <update id='com.amzi.prolog.feature.group' range='[0.0.0,4.5.10001)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Amzi! Prolog + Logic Server IDE'/>
+        <property name='org.eclipse.equinox.p2.description' value='The Eclipse plug-ins for developing and debugging programs in&#xA;Amzi! Prolog. If you intend to use the command line tools, or if you are running your own&#xA;copy of Eclipse that was not installed with Amzi!, then the environment variable, AMZI_DIR, should be set&#xA;and point to a currently installed version of Amzi! core directory (e.g. c:\program files\amzi\apls). In that case AMZI_DIR/bin should be on the PATH as well.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.amzi.com'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Amzi! inc.'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.feature.group' version='4.5.10001'/>
+      </provides>
+      <requires size='21'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.core' range='[4.5.10001,5.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.debug' range='[4.5.10001,5.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.ui' range='[4.5.10001,5.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.help' range='[4.5.10001,5.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.editors' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.debug.core' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.debug.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.views' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.swt' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog' range='[4.5.10001,4.5.10001]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.core' range='[4.5.10001,4.5.10001]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.debug' range='[4.5.10001,4.5.10001]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.ui' range='[4.5.10001,4.5.10001]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.help' range='[4.5.10001,4.5.10001]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.feature.jar' range='[4.5.10001,4.5.10001]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.amzi.com/manuals/amzi/license.txt' url='http://www.amzi.com/manuals/amzi/license.txt'>
+          Amzi! Prolog + Logic Server End User License Agreement&#xA;AMZI! INC. (&quot;AMZI!&quot;) IS WILLING TO LICENSE THIS SOFTWARE TO YOU&#xA;ONLY IF YOU ACCEPT ALL OF THE TERMS IN THIS LICENSE AGREEMENT.&#xA;PLEASE READ THE TERMS CAREFULLY BEFORE USING THE SOFTWARE, BECAUSE&#xA;BY INSTALLING THIS SOFTWARE YOU ARE AGREEING TO BE BOUND BY THE&#xA;TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THESE TERMS,&#xA;AMZI! WILL NOT LICENSE THIS SOFTWARE TO YOU, AND YOU MAY NOT&#xA;USE THE SOFTWARE. IN THAT CASE YOU SHOULD DESTROY ALL COPIES&#xA;OF THIS SOFTWARE AND CONTACT AMZI! OR YOUR PLACE OF PURCHASE&#xA;FOR A REFUND. &#xA;SOFTWARE LICENSE &#xA;Ownership of the Software. The enclosed Amzi! software program&#xA;(&quot;Software&quot;) and the accompanying written materials (&quot;Documentation&quot;)&#xA;are owned by Amzi! [or its suppliers] and are protected by United&#xA;States copyright laws and by international treaties. The Software&#xA;is licensed, not sold. &#xA;The Software is used by a programmer (&quot;Developer&quot;) to create&#xA;executable software &quot;Programs&quot; and the &quot;Distributable Runtime&quot;&#xA;is used to run the Programs on a Windows or Unix operating system&#xA;(&quot;Platform&quot;). &quot;Windows&quot; is any Windows operating system from&#xA;Microsoft. &quot;Unix&quot; is any Unix-based operating system and includes&#xA;Linux, Solaris and HP/UX. &#xA;Amzi! reserves all rights not expressly granted. &#xA;License Rights--The &quot;Grant of License&quot; section that applies to&#xA;you depends on the Edition you are running, and, under Windows,&#xA;the license key you have entered. Under Windows, if you do not&#xA;have a license key you are using the Free Edition. Under Unix,&#xA;if you have not purchased a license, you are using the Free Edition.&#xA;The name of the Edition you have installed is displayed when&#xA;you run the Software. &#xA;Free - non-distributable, personal development system for evaluation&#xA;or educational use only (no license key). &#xA;Student and Student LAN - non-distributable, full-feature development&#xA;system for educational use only (requires license key). &#xA;Developer - full-feature development system and distributable&#xA;runtime for professional and other use (requires license key).&#xA;Professional - full-feature development system and full-feature&#xA;distributable runtime for professional and other use (requires&#xA;license key or is purchased for Unix Platforms). &#xA;Free Edition Grant of License--Amzi! grants you the right to&#xA;install and use the Software on one or more computers owned by&#xA;you for personal and/or educational use. If you are a professional,&#xA;business or government organization, you may use the Software&#xA;for 30-days for evaluation purposes. You may not redistribute&#xA;the Amzi! Distributable Runtime or any other part of the Software.&#xA;Student Edition Grant of License--Amzi! grants you the right&#xA;to use a copy of the Software on a single computer for personal&#xA;and/or educational use. If you are a professional, business or&#xA;government organization, you may use the Software for educational&#xA;purposes only. You may not redistribute the Amzi! Distributable&#xA;Runtime or any other part of the Software. &#xA;Student LAN Edition Grant of License--Amzi! grants you the right&#xA;to use the number of copies of the Software specified in the&#xA;license key in your computing facilities for educational use.&#xA;If you are a professional, business or government organization,&#xA;you may use the Software for educational purposes only. You may&#xA;not redistribute the Amzi! Distributable Runtime or any other&#xA;part of the Software.&#xA;Developer and Professional Edition Grant of License--For each&#xA;Developer or Professional Developer License you have purchased,&#xA;Amzi! grants to you, as an individual, the right to use a copy&#xA;of the Software on a single computer. If you are an entity,&#xA;Amzi! grants you the right to designate one individual within&#xA;your organization to have the right to use the Software in the&#xA;manner provided above. You may distribute your Programs according&#xA;to the terms of the &quot;Amzi! Prolog Redistributable Runtime Software&quot;&#xA;paragraph below.&#xA;Amzi! Prolog Distributable Runtime Software. For each Developer&#xA;or Professional Runtime License you have purchased, Amzi! grants&#xA;to you the royalty-free right to reproduce and distribute an&#xA;unlimited number of copies on one platform (Windows, Linux, Solaris&#xA;or HP/UX) of: (1) the executable files (Program) created using&#xA;the Software and (2) the Amzi! Prolog runtime modules identified&#xA;in the accompanying written materials as &quot;Redistributable&quot; provided&#xA;that you: (a) write your Program with a licensed, registered&#xA;copy of the Software, (b) do not include a Prolog compiler in&#xA;your Program, (c) include the Redistributable modules only in&#xA;conjunction with and as a part of your Program, (d) include a&#xA;valid copyright notice, (e) do not permit further redistribution&#xA;of the Redistributable modules by your end-users or customers&#xA;and (f) agree to indemnify, hold harmless Amzi! and its suppliers&#xA;from and against any claims or lawsuits, including reasonable&#xA;attorney&apos;s fees, that arise or result from the use or distribution&#xA;of your Program.&#xA;Under no conditions may you distribute the source code, listener,&#xA;IDE, compiler, linker, libraries or Documentation included in&#xA;this Software. For different licensing arrangements, please contact&#xA;Amzi!  &#xA;Evaluation Editions Grant of License (custom configurations for&#xA;specific evaluation requirements)--Amzi! grants to you, as an&#xA;individual, the right to use a copy of the Software on a single&#xA;computer, for evaluation purposes only, for the number of days&#xA;specified in the license key. You may not redistribute the Amzi!&#xA;Distributable Runtime or any other part of the Software. &#xA;Updates. Upon receipt of future updates of the Software (an &quot;Update&quot;),&#xA;you may use or transfer the Update only in conjunction with your&#xA;then existing Software. The Software and all Updates are licensed&#xA;as a single product, and the Updates may not be separated from&#xA;the Software for use by more than one individual at any time.&#xA;Restrictions on Use and Transfer. You may not copy the Software&#xA;or Documentation except solely for backup or archival purposes.&#xA;You may not rent, lease, lend or provide commercial hosting services&#xA;with the Software or otherwise transfer or assign the right to&#xA;use the Software except as provided below. You may not reverse&#xA;engineer, decompile, or disassemble the Software, except and&#xA;only to the extent that such activity is expressly permitted&#xA;by applicable law. notwithstanding this limitation. You may not&#xA;create derivative works from the Software or the Documentation.&#xA;If you have purchased a Developer or Professional License, you&#xA;may permanently transfer the Software and accompanying materials&#xA;(including all Updates and prior versions) provided you retain&#xA;no copies and the transferee agrees to be bound by the terms&#xA;of this Agreement. Such a transfer terminates your license. &#xA;Sample Code. You have a royalty-free license to incorporate the&#xA;source code for the modules designated as &quot;Samples&quot; into your&#xA;own Programs and distribute the executable files created from&#xA;that source code according to the terms stated above. You may&#xA;not distribute any portion of the Samples source code in any&#xA;form. &#xA;Export Restrictions. This Software is subject to U.S. Export&#xA;Administration Regulations. You may not acquire, ship, transfer,&#xA;or reexport the Software into any country or to any person or&#xA;entity prohibited by the Regulations including, but not limited&#xA;to, the countries of Cuba, Iran, Iraq, Libya, North Korea, Sudan,&#xA;and Syria. You warrant and represent that neither the U.S.A.&#xA;Bureau of Export Administration nor any other federal agency&#xA;has suspended, revoked or denied your export privileges. This&#xA;license is valid only for use within the country of the original&#xA;purchaser or, if purchased in the EEC (European Economic Community),&#xA;within any country in the EEC. &#xA;Termination. Amzi! may terminate this Agreement if you fail to&#xA;comply with its terms and conditions. In such event, you must&#xA;destroy all copies of the Software. &#xA;General. Whenever possible, each provision of this License Agreement&#xA;shall be interpreted in a manner as to be valid and effective&#xA;under applicable law. If any provision is found to be unlawful,&#xA;void or for any reason unenforceable, then that provision shall&#xA;be deemed severable from this License Agreement and shall not&#xA;affect the validity and enforceability of the remaining provisions.&#xA;This Agreement is governed by the laws of the State of Ohio.&#xA;For questions concerning this Agreement, please contact Amzi!&#xA;inc. 5861 Greentree Road, Lebanon, Ohio 45036 U.S.A., Telephone&#xA;+1-513-425-8050, Fax +1-513-425-8025. &#xA;LIMITED WARRANTY &#xA;Amzi! warrants that the Software will perform substantially in&#xA;accordance with the accompanying Documentation for a period of&#xA;90 days from the date of your receipt of the Software. Any implied&#xA;warranties on the Software are limited to 90 days. Some states&#xA;do not allow limitations on duration of an implied warranty,&#xA;so the above limitation may not apply to you. &#xA;AMZI! DISCLAIMS ALL OTHER WARRANTIES, EITHER EXPRESS OR IMPLIED,&#xA;INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT, WITH&#xA;RESPECT TO THE SOFTWARE AND THE ACCOMPANYING WRITTEN MATERIALS.&#xA;This limited warranty gives you specific legal rights. You may&#xA;have others, which vary from state to state. &#xA;AMZI! INC.&apos;S ENTIRE LIABILITY AND YOUR EXCLUSIVE REMEDY SHALL&#xA;BE, AT AMZI! INC.&apos;S CHOICE, EITHER (A) RETURN OF THE PRICE PAID&#xA;OR (B) REPLACEMENT OF THE SOFTWARE THAT DOES NOT MEET AMZI! INC.&apos;S&#xA;LIMITED WARRANTY AND WHICH IS RETURNED TO AMZI! WITH A COPY OF&#xA;YOUR RECEIPT. Any replacement Software will be warranted for&#xA;the remainder of the original warranty period or 30 days, whichever&#xA;is longer. &#xA;IN NO EVENT WILL AMZI! BE LIABLE TO YOU FOR DAMAGES WHATSOEVER&#xA;(INCLUDING, WITHOUT LIMITATION, ANY LOSS OF PROFITS, LOST SAVINGS,&#xA;BUSINESS INTERRUPTION, LOSS OF INFORMATION OR ANY OTHER PECUNIARY&#xA;LOSS) OR OTHER INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT&#xA;OF YOUR USE OR INABILITY TO USE THE SOFTWARE, EVEN IF AMZI! HAS&#xA;BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. Because some&#xA;states do not allow the exclusion or limitation of liability&#xA;for consequential or incidental damages, the above limitation&#xA;may not apply to you. &#xA;U.S. GOVERNMENT RESTRICTED RIGHTS &#xA;The Software and documentation are provided with Restricted Rights.&#xA;Use, duplication, or disclosure by the Government is subject&#xA;to restrictions set forth in subparagraph (c)(1) of The Rights&#xA;in Technical Data and Computer Software clause at DFARS 252.227-7013&#xA;or subparagraphs (c)(1) and (2) of Professional Computer Software-Restricted&#xA;Rights at 48 CFR 52.227-19, as applicable. Manufacturer is Amzi!&#xA;inc. 609A Piner Rd., Suite A#507, Wilmington, NC 28409 U.S.A.
+        </license>
+      </licenses>
+      <copyright>
+        Copyright (c) 1986-2010 Amzi! inc. and others. All Rights Reserved.
+      </copyright>
+    </unit>
+    <unit id='amzi_eclipse_feature' version='1.0.0.7879IsWcJnHvE'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Amzi! Eclipse Feature'/>
+        <property name='org.eclipse.equinox.p2.description' value='The Eclipse plug-ins for developing and debugging programs in Amzi! Prolog. The environment variable, AMZI_DIR, must be set and point to a currently installed version of Amzi! version 9.0 or later.'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='amzi_eclipse_feature' version='1.0.0.7879IsWcJnHvE'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.feature.group' range='[4.5.10001,4.5.10001]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='com.amzi.prolog.debug' version='4.5.10001'>
+      <update id='com.amzi.prolog.debug' range='[0.0.0,4.5.10001)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Amzi! Debugger'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Amzi! inc.'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='9'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.debug' version='4.5.10001'/>
+        <provided namespace='osgi.bundle' name='com.amzi.prolog.debug' version='4.5.10001'/>
+        <provided namespace='java.package' name='com.amzi.prolog.debug' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.debug.core.internal' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.debug.core.model' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.debug.remote' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.debug.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.debug.ui.actions' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='10'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.amzi.prolog.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.core' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.debug.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.amzi.prolog.debug' version='4.5.10001'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.amzi.prolog.debug; singleton:=true&#xA;Bundle-Version: 4.5.10001
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.amzi.prolog.feature.jar' version='4.5.10001'>
+      <properties size='7'>
+        <property name='org.eclipse.equinox.p2.name' value='Amzi! Prolog + Logic Server IDE'/>
+        <property name='org.eclipse.equinox.p2.description' value='The Eclipse plug-ins for developing and debugging programs in&#xA;Amzi! Prolog. If you intend to use the command line tools, or if you are running your own&#xA;copy of Eclipse that was not installed with Amzi!, then the environment variable, AMZI_DIR, should be set&#xA;and point to a currently installed version of Amzi! core directory (e.g. c:\program files\amzi\apls). In that case AMZI_DIR/bin should be on the PATH as well.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.amzi.com'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Amzi! inc.'/>
+        <property name='org.eclipse.update.feature.application' value='org.eclipse.ui.workbench'/>
+        <property name='org.eclipse.update.feature.plugin' value='com.amzi.prolog'/>
+        <property name='org.eclipse.update.feature.exclusive' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.feature.jar' version='4.5.10001'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.amzi.prolog' version='4.5.10001'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.amzi.prolog' version='4.5.10001'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.amzi.com/manuals/amzi/license.txt' url='http://www.amzi.com/manuals/amzi/license.txt'>
+          Amzi! Prolog + Logic Server End User License Agreement&#xA;AMZI! INC. (&quot;AMZI!&quot;) IS WILLING TO LICENSE THIS SOFTWARE TO YOU&#xA;ONLY IF YOU ACCEPT ALL OF THE TERMS IN THIS LICENSE AGREEMENT.&#xA;PLEASE READ THE TERMS CAREFULLY BEFORE USING THE SOFTWARE, BECAUSE&#xA;BY INSTALLING THIS SOFTWARE YOU ARE AGREEING TO BE BOUND BY THE&#xA;TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THESE TERMS,&#xA;AMZI! WILL NOT LICENSE THIS SOFTWARE TO YOU, AND YOU MAY NOT&#xA;USE THE SOFTWARE. IN THAT CASE YOU SHOULD DESTROY ALL COPIES&#xA;OF THIS SOFTWARE AND CONTACT AMZI! OR YOUR PLACE OF PURCHASE&#xA;FOR A REFUND. &#xA;SOFTWARE LICENSE &#xA;Ownership of the Software. The enclosed Amzi! software program&#xA;(&quot;Software&quot;) and the accompanying written materials (&quot;Documentation&quot;)&#xA;are owned by Amzi! [or its suppliers] and are protected by United&#xA;States copyright laws and by international treaties. The Software&#xA;is licensed, not sold. &#xA;The Software is used by a programmer (&quot;Developer&quot;) to create&#xA;executable software &quot;Programs&quot; and the &quot;Distributable Runtime&quot;&#xA;is used to run the Programs on a Windows or Unix operating system&#xA;(&quot;Platform&quot;). &quot;Windows&quot; is any Windows operating system from&#xA;Microsoft. &quot;Unix&quot; is any Unix-based operating system and includes&#xA;Linux, Solaris and HP/UX. &#xA;Amzi! reserves all rights not expressly granted. &#xA;License Rights--The &quot;Grant of License&quot; section that applies to&#xA;you depends on the Edition you are running, and, under Windows,&#xA;the license key you have entered. Under Windows, if you do not&#xA;have a license key you are using the Free Edition. Under Unix,&#xA;if you have not purchased a license, you are using the Free Edition.&#xA;The name of the Edition you have installed is displayed when&#xA;you run the Software. &#xA;Free - non-distributable, personal development system for evaluation&#xA;or educational use only (no license key). &#xA;Student and Student LAN - non-distributable, full-feature development&#xA;system for educational use only (requires license key). &#xA;Developer - full-feature development system and distributable&#xA;runtime for professional and other use (requires license key).&#xA;Professional - full-feature development system and full-feature&#xA;distributable runtime for professional and other use (requires&#xA;license key or is purchased for Unix Platforms). &#xA;Free Edition Grant of License--Amzi! grants you the right to&#xA;install and use the Software on one or more computers owned by&#xA;you for personal and/or educational use. If you are a professional,&#xA;business or government organization, you may use the Software&#xA;for 30-days for evaluation purposes. You may not redistribute&#xA;the Amzi! Distributable Runtime or any other part of the Software.&#xA;Student Edition Grant of License--Amzi! grants you the right&#xA;to use a copy of the Software on a single computer for personal&#xA;and/or educational use. If you are a professional, business or&#xA;government organization, you may use the Software for educational&#xA;purposes only. You may not redistribute the Amzi! Distributable&#xA;Runtime or any other part of the Software. &#xA;Student LAN Edition Grant of License--Amzi! grants you the right&#xA;to use the number of copies of the Software specified in the&#xA;license key in your computing facilities for educational use.&#xA;If you are a professional, business or government organization,&#xA;you may use the Software for educational purposes only. You may&#xA;not redistribute the Amzi! Distributable Runtime or any other&#xA;part of the Software.&#xA;Developer and Professional Edition Grant of License--For each&#xA;Developer or Professional Developer License you have purchased,&#xA;Amzi! grants to you, as an individual, the right to use a copy&#xA;of the Software on a single computer. If you are an entity,&#xA;Amzi! grants you the right to designate one individual within&#xA;your organization to have the right to use the Software in the&#xA;manner provided above. You may distribute your Programs according&#xA;to the terms of the &quot;Amzi! Prolog Redistributable Runtime Software&quot;&#xA;paragraph below.&#xA;Amzi! Prolog Distributable Runtime Software. For each Developer&#xA;or Professional Runtime License you have purchased, Amzi! grants&#xA;to you the royalty-free right to reproduce and distribute an&#xA;unlimited number of copies on one platform (Windows, Linux, Solaris&#xA;or HP/UX) of: (1) the executable files (Program) created using&#xA;the Software and (2) the Amzi! Prolog runtime modules identified&#xA;in the accompanying written materials as &quot;Redistributable&quot; provided&#xA;that you: (a) write your Program with a licensed, registered&#xA;copy of the Software, (b) do not include a Prolog compiler in&#xA;your Program, (c) include the Redistributable modules only in&#xA;conjunction with and as a part of your Program, (d) include a&#xA;valid copyright notice, (e) do not permit further redistribution&#xA;of the Redistributable modules by your end-users or customers&#xA;and (f) agree to indemnify, hold harmless Amzi! and its suppliers&#xA;from and against any claims or lawsuits, including reasonable&#xA;attorney&apos;s fees, that arise or result from the use or distribution&#xA;of your Program.&#xA;Under no conditions may you distribute the source code, listener,&#xA;IDE, compiler, linker, libraries or Documentation included in&#xA;this Software. For different licensing arrangements, please contact&#xA;Amzi!  &#xA;Evaluation Editions Grant of License (custom configurations for&#xA;specific evaluation requirements)--Amzi! grants to you, as an&#xA;individual, the right to use a copy of the Software on a single&#xA;computer, for evaluation purposes only, for the number of days&#xA;specified in the license key. You may not redistribute the Amzi!&#xA;Distributable Runtime or any other part of the Software. &#xA;Updates. Upon receipt of future updates of the Software (an &quot;Update&quot;),&#xA;you may use or transfer the Update only in conjunction with your&#xA;then existing Software. The Software and all Updates are licensed&#xA;as a single product, and the Updates may not be separated from&#xA;the Software for use by more than one individual at any time.&#xA;Restrictions on Use and Transfer. You may not copy the Software&#xA;or Documentation except solely for backup or archival purposes.&#xA;You may not rent, lease, lend or provide commercial hosting services&#xA;with the Software or otherwise transfer or assign the right to&#xA;use the Software except as provided below. You may not reverse&#xA;engineer, decompile, or disassemble the Software, except and&#xA;only to the extent that such activity is expressly permitted&#xA;by applicable law. notwithstanding this limitation. You may not&#xA;create derivative works from the Software or the Documentation.&#xA;If you have purchased a Developer or Professional License, you&#xA;may permanently transfer the Software and accompanying materials&#xA;(including all Updates and prior versions) provided you retain&#xA;no copies and the transferee agrees to be bound by the terms&#xA;of this Agreement. Such a transfer terminates your license. &#xA;Sample Code. You have a royalty-free license to incorporate the&#xA;source code for the modules designated as &quot;Samples&quot; into your&#xA;own Programs and distribute the executable files created from&#xA;that source code according to the terms stated above. You may&#xA;not distribute any portion of the Samples source code in any&#xA;form. &#xA;Export Restrictions. This Software is subject to U.S. Export&#xA;Administration Regulations. You may not acquire, ship, transfer,&#xA;or reexport the Software into any country or to any person or&#xA;entity prohibited by the Regulations including, but not limited&#xA;to, the countries of Cuba, Iran, Iraq, Libya, North Korea, Sudan,&#xA;and Syria. You warrant and represent that neither the U.S.A.&#xA;Bureau of Export Administration nor any other federal agency&#xA;has suspended, revoked or denied your export privileges. This&#xA;license is valid only for use within the country of the original&#xA;purchaser or, if purchased in the EEC (European Economic Community),&#xA;within any country in the EEC. &#xA;Termination. Amzi! may terminate this Agreement if you fail to&#xA;comply with its terms and conditions. In such event, you must&#xA;destroy all copies of the Software. &#xA;General. Whenever possible, each provision of this License Agreement&#xA;shall be interpreted in a manner as to be valid and effective&#xA;under applicable law. If any provision is found to be unlawful,&#xA;void or for any reason unenforceable, then that provision shall&#xA;be deemed severable from this License Agreement and shall not&#xA;affect the validity and enforceability of the remaining provisions.&#xA;This Agreement is governed by the laws of the State of Ohio.&#xA;For questions concerning this Agreement, please contact Amzi!&#xA;inc. 5861 Greentree Road, Lebanon, Ohio 45036 U.S.A., Telephone&#xA;+1-513-425-8050, Fax +1-513-425-8025. &#xA;LIMITED WARRANTY &#xA;Amzi! warrants that the Software will perform substantially in&#xA;accordance with the accompanying Documentation for a period of&#xA;90 days from the date of your receipt of the Software. Any implied&#xA;warranties on the Software are limited to 90 days. Some states&#xA;do not allow limitations on duration of an implied warranty,&#xA;so the above limitation may not apply to you. &#xA;AMZI! DISCLAIMS ALL OTHER WARRANTIES, EITHER EXPRESS OR IMPLIED,&#xA;INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT, WITH&#xA;RESPECT TO THE SOFTWARE AND THE ACCOMPANYING WRITTEN MATERIALS.&#xA;This limited warranty gives you specific legal rights. You may&#xA;have others, which vary from state to state. &#xA;AMZI! INC.&apos;S ENTIRE LIABILITY AND YOUR EXCLUSIVE REMEDY SHALL&#xA;BE, AT AMZI! INC.&apos;S CHOICE, EITHER (A) RETURN OF THE PRICE PAID&#xA;OR (B) REPLACEMENT OF THE SOFTWARE THAT DOES NOT MEET AMZI! INC.&apos;S&#xA;LIMITED WARRANTY AND WHICH IS RETURNED TO AMZI! WITH A COPY OF&#xA;YOUR RECEIPT. Any replacement Software will be warranted for&#xA;the remainder of the original warranty period or 30 days, whichever&#xA;is longer. &#xA;IN NO EVENT WILL AMZI! BE LIABLE TO YOU FOR DAMAGES WHATSOEVER&#xA;(INCLUDING, WITHOUT LIMITATION, ANY LOSS OF PROFITS, LOST SAVINGS,&#xA;BUSINESS INTERRUPTION, LOSS OF INFORMATION OR ANY OTHER PECUNIARY&#xA;LOSS) OR OTHER INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT&#xA;OF YOUR USE OR INABILITY TO USE THE SOFTWARE, EVEN IF AMZI! HAS&#xA;BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. Because some&#xA;states do not allow the exclusion or limitation of liability&#xA;for consequential or incidental damages, the above limitation&#xA;may not apply to you. &#xA;U.S. GOVERNMENT RESTRICTED RIGHTS &#xA;The Software and documentation are provided with Restricted Rights.&#xA;Use, duplication, or disclosure by the Government is subject&#xA;to restrictions set forth in subparagraph (c)(1) of The Rights&#xA;in Technical Data and Computer Software clause at DFARS 252.227-7013&#xA;or subparagraphs (c)(1) and (2) of Professional Computer Software-Restricted&#xA;Rights at 48 CFR 52.227-19, as applicable. Manufacturer is Amzi!&#xA;inc. 609A Piner Rd., Suite A#507, Wilmington, NC 28409 U.S.A.
+        </license>
+      </licenses>
+      <copyright>
+        Copyright (c) 1986-2010 Amzi! inc. and others. All Rights Reserved.
+      </copyright>
+    </unit>
+    <unit id='com.amzi.prolog' version='4.5.10001'>
+      <update id='com.amzi.prolog' range='[0.0.0,4.5.10001)' severity='0'/>
+      <properties size='5'>
+        <property name='df_LT.Bundle-Name' value='Amzi! Prolog + Logic Server'/>
+        <property name='df_LT.Bundle-Vendor' value='Amzi! inc.'/>
+        <property name='org.eclipse.equinox.p2.name' value='%Bundle-Name'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%Bundle-Vendor'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog' version='4.5.10001'/>
+        <provided namespace='osgi.bundle' name='com.amzi.prolog' version='4.5.10001'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='osgi.bundle' name='com.amzi.prolog.core' range='3.5.9404'/>
+        <required namespace='osgi.bundle' name='com.amzi.prolog.ui' range='3.5.9404'/>
+        <required namespace='osgi.bundle' name='com.amzi.prolog.debug' range='3.5.9404'/>
+        <required namespace='osgi.bundle' name='com.amzi.prolog.help' range='3.5.9404'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.amzi.prolog' version='4.5.10001'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.amzi.prolog; singleton:=true&#xA;Bundle-Version: 4.5.10001
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.amzi.prolog.core' version='4.5.10001'>
+      <update id='com.amzi.prolog.core' range='[0.0.0,4.5.10001)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Amzi! Core'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Amzi! inc.'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='7'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.core' version='4.5.10001'/>
+        <provided namespace='osgi.bundle' name='com.amzi.prolog.core' version='4.5.10001'/>
+        <provided namespace='java.package' name='amzi.ls' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.core' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.core.dialogs' version='0.0.0'/>
+        <provided namespace='java.package' name='com.amzi.prolog.core.utils' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.amzi.prolog.core' version='4.5.10001'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.amzi.prolog.core;singleton:=true&#xA;Bundle-Version: 4.5.10001
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.amzi.prolog.help' version='4.5.10001'>
+      <update id='com.amzi.prolog.help' range='[0.0.0,4.5.10001)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Amzi! Prolog + Logic Server Documentation'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Amzi! inc.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.amzi.prolog.help' version='4.5.10001'/>
+        <provided namespace='osgi.bundle' name='com.amzi.prolog.help' version='4.5.10001'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.amzi.prolog.help' version='4.5.10001'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.amzi.prolog.help; singleton:=true&#xA;Bundle-Version: 4.5.10001
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Generated-from: 1236784694866;type=2
+Bundle-ManifestVersion: 2
+Bundle-Name: Amzi! Prolog + Logic Server
+Bundle-SymbolicName: com.amzi.prolog; singleton:=true
+Bundle-Version: 3.3.8006
+Bundle-Vendor: Amzi! inc.
+Bundle-Localization: plugin
+Require-Bundle: com.amzi.prolog.core,
+ com.amzi.prolog.debug,
+ com.amzi.prolog.ui
+Eclipse-LazyStart: true
